@@ -38,6 +38,9 @@ cargo build
 RUSTFLAGS='-C prefer-dynamic' cargo build
 ```
 
+And, we must add the file std-e33da769ef0fc5d8.dll, which is the build output
+for crate 'prefer-dynamic' in crates.io, to run main.exe.
+
 Btw, if the `RUSTFLAGS` variable was not set, it will return:
 
 ```
